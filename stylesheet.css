@@ -542,18 +542,20 @@ button {
   display: flex;
   gap: 2em;
   width: 20%;
-  height: fit-content;
+  max-height: 100px;
   margin: auto;
   justify-content: center;
 }
-.socials li {
-  list-style: none;
-  width: 30px;
-  height: 30px;
+.socials li{
+    list-style: none;
+    width: 30px;
+    height: 30;   
 }
-.logo-icons {
-  height: 100%;
-  width: 100%;
+.socials li a{
+    width: 100%;
+}
+.socials li a svg{
+    width: 100%;
 }
 .logo-icons path {
   fill: whitesmoke;
