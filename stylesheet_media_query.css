@@ -1,0 +1,118 @@
+@media screen and (max-width: 900px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 100%;
+  }
+  /* Navigation Bbar */
+  .navbar {
+    padding: 2em 2em 2em 2em;
+    height: 100%;
+    box-shadow: none;
+  }
+  .FTS {
+    gap: 10px;
+  }
+  /* End of the navbar */
+  /* Header Section */
+  .header {
+    background-image: url("images/bg-curvy-mobile.svg");
+    background-size: 100% 300px;
+  }
+  .info {
+    max-width: 80%;
+    margin: auto;
+  }
+  .illustration1 {
+    max-width: 60%;
+  }
+  /* End of the header section */
+  /* Features Section */
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 80%;
+  }
+  .box p {
+    max-width: 80%;
+  }
+  /* End of the Features Section */
+  /* Teams Section */
+  .teams {
+    flex-direction: column;
+    width: 90%;
+  }
+  .teams-image {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+  .teams-image img {
+    width: 100%;
+  }
+  .productive-info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  /* End of the teams section */
+  /* Reviews Sction */
+  .reviews {
+    flex-direction: column;
+    background-position: 20px -5px;
+  }
+  /* End of reviews */
+  /* Form Section */
+  .sign-in {
+    position: relative;
+    max-width: 90%;
+  }
+  .email-input {
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+  }
+  .email-input input {
+    width: 100%;
+  }
+  /* End of the form section */
+  /* Ending Section */
+  .ending {
+    flex-direction: column;
+    width: 100%;
+  }
+  .endlogo {
+    margin-top: 8em;
+  }
+  .fylo-footer {
+    margin-top: 2em;
+    flex-direction: column;
+    width: 100%;
+  }
+  .fylo {
+    display: flex;
+    width: 100%;
+    gap: 1em;
+  }
+  .reach-us {
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+  }
+  .location {
+    display: flex;
+    width: 100%;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+  }
+  /* End of the ending Section */
+}
