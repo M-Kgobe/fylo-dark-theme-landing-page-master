@@ -551,12 +551,6 @@ button {
     width: 30px;
     height: 30;   
 }
-.socials li a{
-    width: 100%;
-}
-.socials li a svg{
-    width: 100%;
-}
 .logo-icons path {
   fill: whitesmoke;
   stroke-width: 10;
